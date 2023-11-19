@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 50vh;
+    font-family: 'kanit';
+    background: linear-gradient(109.5deg, rgb(24, 175, 231) 11.2%, rgb(67, 82, 186) 74.6%);
+   
+}
+
+#form{
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px;
+    padding-top: 5px; 
+}
+
+.title{
+    font-size: 1.8em;
+    margin-bottom: 10%;
+}
+
+.input{
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px black solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5;
+}
+
+.input input{
+    border: none;
+    outline: none;
+    font-family: 'Kanit';
+}
+
+#botao{
+    padding-top: 10px;
+}
+
+@media (max-width:320px){
+       
+#form{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    padding-top: 10px; 
+ 
+
+}
+
+}
+
+
+
